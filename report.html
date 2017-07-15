@@ -13729,7 +13729,7 @@ SnoiIhIylPRERCRk/D8Dr1yRo2o7qQAAAABJRU5ErkJggg==
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer: When the model is trained with a maximum depth of 1, the model suffers with high bias. When the model is trained with a maximum depth of 10,the model is overfitting with high training score and low validation score. Overfitting is when training score is high and validation score is low. We can see it by seeing the gap between the training and validation curve. </strong></p>
+<p><strong>Answer: When the model is trained with a maximum depth of 1, the model suffers with high bias. By analysing the graph at depth 1, both validation and training score are low, so it is underfitting. Underfitting means our model is too simple, it can't capture relevant features required for making prediction and hence it is not good in training and validation. When the model is trained with a maximum depth of 10,the model suffers from high variance.By analysing the graph at depth 10,  validation score is low and training score is high, so it is overfitting. There is a large gap between training and validation score. Here we are optimizing our model too much to cover most of the training data. Our model becomes too sensitive to the data. Hence, there is high training score but validation score is still low. </strong></p>
 
 </div>
 </div>
